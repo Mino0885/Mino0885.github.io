@@ -13,8 +13,8 @@ keywords: java,Collection,集合
 ## Collection是什么
 Collection又称为集合,与Map一样是Java中的两种容器.是用来存储其他对象的容器.
 ## Collection的特点
-- 集合的长度可变
-- 集合不可以存储基本数据类型(可以存储成其封装好的对象)
+- Collection的长度可变
+- Collection不可以存储基本数据类型(可以存储成其封装好的对象)
 
 ## Collection的两个子接口
 1. List 
