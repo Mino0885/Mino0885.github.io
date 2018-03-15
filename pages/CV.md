@@ -7,6 +7,10 @@ comments: true
 menu: 简历
 permalink: /CV/
 ---
+# [动画简历](https://mino0885.github.io/CV.html)
+
+----------
+
 # 个人信息
 
  - 梁江浩/男/1998 
