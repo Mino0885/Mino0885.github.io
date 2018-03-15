@@ -170,7 +170,6 @@ $(function() {
 	var w = new Coder("md");
 	w.load("<h1 class='writecode'>简历</h1>");
 	w.load("<p><div class='writecode'>梁江浩</div>");
-	w.load("<div class='writecode'>Java</div>");
 	w.load("<div class='writecode'>Java开发工程师</div></p>");
 	w.load("<h1 class='writecode'>联系我</h1>");
 	w.load("<ul>");
@@ -192,7 +191,6 @@ $(function() {
 	w.load("<li class='writecode'>了解并掌握EasyUI,和BootStrap</li>");
 	w.load("<li class='writecode'>可以在参照文档情况下单独完成sh脚本编写</li>");
 	w.load("<li class='writecode'>阿里云搭建有自己的服务器</li>");
-	w.load("<li class='writecode'></li>");
 	w.load("</ul>");
 	c.load("<p><div class='comment writecode'>/**</div>");
 	c.load("<div class='comment writecode'>&nbsp;*左面的简历看起来不是太令人满意，让我们先给他来点动态渲染</div>");
