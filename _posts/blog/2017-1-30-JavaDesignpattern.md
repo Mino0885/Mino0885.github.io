@@ -144,6 +144,7 @@ keywords: Java , 设计模式
 - 场景:需要同时使用两个类的方法的时候
 - 实现:
 	创建Target接口；
+	
 		public interface Target {
 			//这是源类Adapteee没有的方法
 			public void Request(); 
@@ -156,7 +157,9 @@ keywords: Java , 设计模式
     		public void SpecificRequest(){
     		}
 		}
+		
 	创建适配器类（Adapter）
+	
 		//适配器Adapter继承自Adaptee，同时又实现了目标(Target)接口。
 		public class Adapter extends Adaptee implements Target {
 			//目标接口要求调用Request()这个方法名，但源类Adaptee没有方法Request()
@@ -169,7 +172,9 @@ keywords: Java , 设计模式
 			}
 
 		}
+		
 	测试
+	
 		public class AdapterPattern {
 
 			public static void main(String[] args){
