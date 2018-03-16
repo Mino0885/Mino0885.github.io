@@ -48,7 +48,9 @@ keywords: Java , 设计模式
     		return instance;  
     		}  
 			}  
+
    这种方式是最简单的实现,但是最大的问题就是**线程不安全**,因为没有加锁,所以多线程情况下很可能出问题
+
   2. 懒汉式_2
    
 			public class Singleton {  
@@ -61,8 +63,11 @@ keywords: Java , 设计模式
 			return instance;  
 			}  
 			} 
+
    这种方式能在多线程中运行,但是效率很低,因为加锁影响了效率
+
   3. 饿汉式
+ 
 			public class Singleton {  
     			private static Singleton instance = new Singleton();  
     			private Singleton (){}  
@@ -70,9 +75,12 @@ keywords: Java , 设计模式
     			return instance;  
     			}  
 			}  
+
    这种方式通过classloder机制避免了多线程问题,但是容易产生垃圾对象
+
   4. 双检锁
-  public class Singleton {  
+   
+			public class Singleton {  
 			private volatile static Singleton singleton;  
     			private Singleton (){}  
 				public static Singleton getSingleton() {  
