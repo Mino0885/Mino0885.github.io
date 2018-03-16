@@ -38,15 +38,14 @@ keywords: Java , 设计模式
   1. 懒汉式_1 
 
 			public class Singleton {  
-    		private static Singleton instance;  
-    		private Singleton (){}  
-  
-    		public static Singleton getInstance() {  
-    		if (instance == null) {  
-        	instance = new Singleton();  
-    		}  
-    		return instance;  
-    		}  
+    			private static Singleton instance;  
+    			private Singleton (){}  
+    			public static Singleton getInstance() {  
+    			if (instance == null) {  
+        		instance = new Singleton();  
+    			}  
+    			return instance;  
+    			}  
 			}  
 
    这种方式是最简单的实现,但是最大的问题就是**线程不安全**,因为没有加锁,所以多线程情况下很可能出问题
