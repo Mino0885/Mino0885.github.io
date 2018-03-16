@@ -178,7 +178,7 @@ $(function() {
 	w.load("</ul>");
 	w.load("<h1 class='writecode'>技能</h1>");
 	w.load("<ul>");
-	w.load("<li class='writecode'>精通Java，有过1年开发经验</li>");
+	w.load("<li class='writecode'>精通Java，有过项目开发经验</li>");
 	w.load("<li class='writecode'>精通IntelliJ IDEA 工具使用,并熟悉Eclipse工具使用</li>");
 	w.load("<li class='writecode'>熟悉常见设计模式(如装饰,代理,适配器)</li>");
 	w.load("<li class='writecode'>熟悉MySql数据库,并掌握Oracle数据库和Redis的常见操作</li>");
@@ -187,6 +187,7 @@ $(function() {
 	w.load("<li class='writecode'>掌握多线程以及处理线程安全问题的技能</li>");
 	w.load("<li class='writecode'>了解并掌握基本的底层数据结构,但对集合等Java常见容器有较深的认识</li>");
 	w.load("<li class='writecode'>精通S S H框架,对Struts2有较深的理解,对Spring有详细分析底层</li>");
+	w.load("<li class='writecode'>熟悉S S M框架,熟练使用Mybatis,SpringMVC</li>");
 	w.load("<li class='writecode'>熟练使用Shiro安全框架</li>");
 	w.load("<li class='writecode'>了解并掌握EasyUI,和BootStrap</li>");
 	w.load("<li class='writecode'>可以在参照文档情况下单独完成sh脚本编写</li>");
