@@ -5,7 +5,7 @@ categories: IDEA使用问题
 description: IDEA工具使用中发现Mybatis的配置文件Mapper.xml无法正常编译,以下为解决方案
 keywords: IDEA, Mybatis
 ---
-工作闲暇之余想自己写个小项目来实践最近吸收到的技术,准备采用SSM框架来操作,却发现MYBATIS反复出现以下错误
+闲暇之余想自己写个小项目来实践最近吸收到的技术,准备采用SSM框架来操作,却发现MYBATIS反复出现以下错误
 
 ![出现的错误](https://i.imgur.com/eQ4VOHM.png)
  
