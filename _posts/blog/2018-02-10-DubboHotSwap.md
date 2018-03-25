@@ -8,22 +8,8 @@ keywords: Dubbo , 热部署
 在使用Dubbo时,开启了IDEA的JRebel的热部署插件(插件作用当ide是去焦点时,自动同步项目文件)在修改了Service的代码后,发现会有一定的几率会触发ClassNotFoundException的问题.在查询了各种资料后解决
 ## 出现原因
 - 框架选择了java的序列化,反序列化时候会加载并寻找pojo,并且调用以下代码:
-
-	protected Class<?> resolveClass(ObjectStreamClass desc)
-    	throws IOException, ClassNotFoundException
-		{
-    	String name = desc.getName();
-    	try {
-        return Class.forName(name, false, latestUserDefinedLoader());
-    	} catch (ClassNotFoundException ex) {
-        Class<?> cl = primClasses.get(name);
-        if (cl != null) {
-            return cl;
-        } else {
-            throw ex;
-        }
-    	}
-	}
+- 
+![](https://i.imgur.com/tQrDoGN.png)
 
 - latestUserDefinedLoader()默认使用了tomcat的webapploader。而在热部署环境下，loader是其它的，所以加载不到
 
