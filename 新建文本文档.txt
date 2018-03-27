@@ -1,1 +1,0 @@
-dig +nostats +nocmd +nocomment +noquestion @223.5.5.5 www.baidu.com
