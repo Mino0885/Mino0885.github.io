@@ -25,7 +25,8 @@ keywords: Swift, String
     //insert(contentsOf:"") 指定索引插入字符
     stringA.insert(contentsOf:"ahhah", at: stringA.endIndex)
     print(stringA)    //Hello, World!ahhah
-    //remove
+    
+    
 常用的函数:
  - isEmpty  判断是否为空
  - hasPrefix(prefix: String)  判断是否以某个字符串开头
