@@ -48,6 +48,7 @@ permalink: /CV/
 	- 数据库表结构: 主要采用PowerDesigner实现的数据库建模
 	- 实现过程： 评论管理功能主要实现对评论的增删改查，所采用的模式是MVC模式,在web层主要使用Struts2技术处理请求，在业务层和数据层之间使用DAO模式管理数据的增删改查等操作.使用Shir安全框架完成权限与认证管理.
 	- 项目收获： 了解并掌握数据库表的设计,熟练使用S S H架构,对项目开发有较为详细的认识.
+
 ### 项目名称： openzaly （Github trending 榜单 日榜第一，周榜十九）
 	- 使用工具:  IntelliJ IDEA
 	- 项目时间： 2018-3-20至2018-8-1
@@ -55,6 +56,7 @@ permalink: /CV/
 	- 负责功能： 使用spring boot迁移管理后台，完成管理模块数据监测功能
 	- 项目收获： 掌握Netty的基本思想，熟悉Protocol Buffers的使用，熟练使用spring boot
 	- 项目地址： 原 https://github.com/akaxincom/openzaly  现 https://github.com/pytonic/openzaly
+
 ## iOS项目：
 ### 项目名称： 阿卡信 （已上架）
 	- 使用语言： Swift
@@ -63,6 +65,7 @@ permalink: /CV/
 	- 系统功能： 搭配openzaly 实现支持多种消息类型加密的IM客户端
 	- 负责功能： 项目维护，聊天界面优化
 	- 项目收获： tableview优化，App运行的基本原理
+	
 ### 项目名称： DuckChat（已上架，全部独立开发）
 	- 使用语言： Swift
 	- 使用工具： Xocde
